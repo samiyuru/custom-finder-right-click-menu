@@ -1,0 +1,4 @@
+*.iml
+/.idea
+/FinderMenu.xcodeproj/xcuserdata
+/FinderMenu.xcodeproj/xcshareddata
