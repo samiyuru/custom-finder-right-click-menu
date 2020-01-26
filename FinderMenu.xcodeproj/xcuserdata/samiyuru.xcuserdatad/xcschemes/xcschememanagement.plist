@@ -4,10 +4,53 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CommandService.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Commons.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>FinderMenu.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>RightClickItems.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>RightClickService.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6B8F97AC23D828CA00BDB90D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B8F97C623D82D2100BDB90D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B8F986823DD38C600BDB90D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B8F988E23DD3B1C00BDB90D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
