@@ -17,6 +17,12 @@
 		6BC8C4CA23DD79F70010A119 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF9386123DD79880016EE36 /* Commons.framework */; };
 		6BC8C4CB23DD79F70010A119 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF9386123DD79880016EE36 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6BC8C4CE23DD7AAA0010A119 /* RightClickService.app in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F988F23DD3B1C00BDB90D /* RightClickService.app */; };
+		6BC8C4D623DE505E0010A119 /* com.samiyuru.findermenu-service.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8C4D523DE505E0010A119 /* com.samiyuru.findermenu-service.plist */; };
+		6BC8C4D923DE532B0010A119 /* Open Text File Here.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8C4D723DE532B0010A119 /* Open Text File Here.sh */; };
+		6BC8C4DA23DE532B0010A119 /* Open Terminal Here.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8C4D823DE532B0010A119 /* Open Terminal Here.sh */; };
+		6BC8C4DD23DE53F10010A119 /* install-service.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8C4DC23DE53F10010A119 /* install-service.sh */; };
+		6BC8C4DE23DE72010010A119 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF9386123DD79880016EE36 /* Commons.framework */; };
+		6BC8C4DF23DE72010010A119 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF9386123DD79880016EE36 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6BF9384323DD71180016EE36 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF9384223DD71180016EE36 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +55,13 @@
 			remoteGlobalIDString = 6B8F988E23DD3B1C00BDB90D;
 			remoteInfo = RightClickService;
 		};
+		6BC8C4E023DE72010010A119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8F97A523D828CA00BDB90D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF9386023DD79880016EE36;
+			remoteInfo = Commons;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +84,17 @@
 			files = (
 			);
 			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC8C4E223DE72010010A119 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6BC8C4DF23DE72010010A119 /* Commons.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6BF9383523DD3C090016EE36 /* Embed Frameworks */ = {
@@ -111,6 +135,10 @@
 		6B8F989823DD3B1D00BDB90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B8F989923DD3B1D00BDB90D /* RightClickService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RightClickService.entitlements; sourceTree = "<group>"; };
 		6BC8C4C423DD79C90010A119 /* Commons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
+		6BC8C4D523DE505E0010A119 /* com.samiyuru.findermenu-service.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "com.samiyuru.findermenu-service.plist"; sourceTree = "<group>"; };
+		6BC8C4D723DE532B0010A119 /* Open Text File Here.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "Open Text File Here.sh"; path = "Scripts/Open Text File Here.sh"; sourceTree = SOURCE_ROOT; };
+		6BC8C4D823DE532B0010A119 /* Open Terminal Here.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "Open Terminal Here.sh"; path = "Scripts/Open Terminal Here.sh"; sourceTree = SOURCE_ROOT; };
+		6BC8C4DC23DE53F10010A119 /* install-service.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "install-service.sh"; sourceTree = "<group>"; };
 		6BF9384223DD71180016EE36 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6BF9386123DD79880016EE36 /* Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Commons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF9386423DD79880016EE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BC8C4DE23DE72010010A119 /* Commons.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +205,7 @@
 		6B8F97AF23D828CA00BDB90D /* FinderMenu */ = {
 			isa = PBXGroup;
 			children = (
+				6BC8C4D223DE50140010A119 /* resources */,
 				6B8F97B223D828CB00BDB90D /* Assets.xcassets */,
 				6B8F97B723D828CB00BDB90D /* Info.plist */,
 				6B8F97B823D828CB00BDB90D /* FinderMenu.entitlements */,
@@ -202,6 +232,33 @@
 				6BF9384223DD71180016EE36 /* main.swift */,
 			);
 			path = RightClickService;
+			sourceTree = "<group>";
+		};
+		6BC8C4D223DE50140010A119 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BC8C4D423DE50400010A119 /* launchd */,
+				6BC8C4D323DE502D0010A119 /* scripts */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6BC8C4D323DE502D0010A119 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				6BC8C4D823DE532B0010A119 /* Open Terminal Here.sh */,
+				6BC8C4D723DE532B0010A119 /* Open Text File Here.sh */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		6BC8C4D423DE50400010A119 /* launchd */ = {
+			isa = PBXGroup;
+			children = (
+				6BC8C4DC23DE53F10010A119 /* install-service.sh */,
+				6BC8C4D523DE505E0010A119 /* com.samiyuru.findermenu-service.plist */,
+			);
+			path = launchd;
 			sourceTree = "<group>";
 		};
 		6BF9383A23DD68780016EE36 /* Frameworks */ = {
@@ -242,12 +299,14 @@
 				6B8F97AB23D828CA00BDB90D /* Resources */,
 				6B8F97D323D82D2100BDB90D /* Embed App Extensions */,
 				6B8F97F723DCCF4600BDB90D /* Embed XPC Services */,
+				6BC8C4E223DE72010010A119 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				6B8F97CE23D82D2100BDB90D /* PBXTargetDependency */,
 				6BC8C4D023DD7AAA0010A119 /* PBXTargetDependency */,
+				6BC8C4E123DE72010010A119 /* PBXTargetDependency */,
 			);
 			name = FinderMenu;
 			productName = FinderMenu;
@@ -362,7 +421,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BC8C4DD23DE53F10010A119 /* install-service.sh in Resources */,
+				6BC8C4D623DE505E0010A119 /* com.samiyuru.findermenu-service.plist in Resources */,
 				6B8F97B323D828CB00BDB90D /* Assets.xcassets in Resources */,
+				6BC8C4DA23DE532B0010A119 /* Open Terminal Here.sh in Resources */,
+				6BC8C4D923DE532B0010A119 /* Open Text File Here.sh in Resources */,
 				6BC8C4CE23DD7AAA0010A119 /* RightClickService.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +508,11 @@
 			isa = PBXTargetDependency;
 			target = 6B8F988E23DD3B1C00BDB90D /* RightClickService */;
 			targetProxy = 6BC8C4CF23DD7AAA0010A119 /* PBXContainerItemProxy */;
+		};
+		6BC8C4E123DE72010010A119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF9386023DD79880016EE36 /* Commons */;
+			targetProxy = 6BC8C4E023DE72010010A119 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

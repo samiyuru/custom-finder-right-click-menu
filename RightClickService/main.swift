@@ -36,9 +36,6 @@ public class ScriptInfo {
 // Class to hold functions related to menu item scripts.
 class MenuItemManager {
     
-    // Path to the menu programs directory. The programs can be apple scripts, bash scripts or executables.
-    let menuProgramsDirName = "FinderMenu"
-    
     // Dictionary to associate script info with menu items using script info array index.
     var scriptInfos: [ScriptInfo]?
     
@@ -52,11 +49,8 @@ class MenuItemManager {
     // Script file name defines the title and the extension defines the type.
     // Each script is loaded as a ScriptInfo object containing title, path, type.
     func readScriptPaths() -> [ScriptInfo]? {
-        // Get the path to user home dir.
-        let scriptParentDirURL = FileManager.default.homeDirectoryForCurrentUser
-
         // Get the URL for menu programs dir path.
-        let menuProgramsDirURL = scriptParentDirURL.appendingPathComponent(menuProgramsDirName)
+        let menuProgramsDirURL = programsDir()
         
         // Log script dir URL.
         NSLog("Script dir located at \(menuProgramsDirURL).")
@@ -149,8 +143,6 @@ class MenuItemManager {
         let terminationHandler = {
             (process: Process) -> Void in
             NSLog("Script terminated \(process.terminationStatus).")
-            NSLog("Script stdout \((process.standardOutput as! FileHandle).availableData).")
-            NSLog("Script stderror \((process.standardError as! FileHandle).availableData).")
         }
         
         // required parameters.

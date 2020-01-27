@@ -1,10 +1,8 @@
 #!/bin/bash
 
-#echo "-------------" >> "$1/debug.txt"
-#echo "Starting.." >> "$1/debug.txt"
-open -a "Terminal" "$1" #>> "$1/debug.txt" 2>&1
-#echo "-------------" >> "$1/debug.txt"
-#echo "$(whoami)" >> "$1/debug.txt"
-#echo "$?" >> "$1/debug.txt"
-#echo "$(pwd)" >> "$1/debug.txt"
-#echo "" >> "$1/debug.txt"
+######################################################
+# Open terminal in the path given by the param.
+# Param is the directory to open the Terminal in.
+######################################################
+
+open -a "Terminal" "$1"

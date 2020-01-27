@@ -12,6 +12,21 @@ public let MENU_ITEM_CLICKED_NOTIF = "menuItemClickedNotif"
 public let MENU_ITEM_INFO_NOTIF = "menuItemInfoNotif"
 public let MENU_ITEM_INFO_REQUEST_NOTIF = "menuItemInfoRequestNotif"
 
+// Get the directory for the menu item programs.
+// The programs can be apple scripts, bash scripts or executables.
+public func programsDir() -> URL {
+    // Name of the menu programs directory.
+    let menuProgramsDirName = "FinderMenu"
+    
+    // Get the path to user home dir.
+    let scriptParentDirURL = FileManager.default.homeDirectoryForCurrentUser
+
+    // Get the URL for menu programs dir path.
+    let menuProgramsDirURL = scriptParentDirURL.appendingPathComponent(menuProgramsDirName)
+    
+    return menuProgramsDirURL
+}
+
 // Class to represent an item in the right click menu.
 public class MenuItemInfo: Encodable, Decodable {
     
