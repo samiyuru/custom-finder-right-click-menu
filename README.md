@@ -38,11 +38,11 @@ The next gif shows how the provided "Open Terminal Here" menu item works.
 
 ## Adding Custom Menu Items
 
-Adding a new right click menu item is as simple as creating a shell script in the "~/FinderMenu" directory.
+Adding a new right click menu item is as simple as creating a shell script in the "\~/FinderMenu" directory.
 The shell script should accept the path to the directory as the first argument when running the script.
 File name of the script file becomes the menu item name in the right click menu.
 When the menu item is clicked, the script is executed with the directory path as the first argument.
-You can refer to the given scripts in "~/FinderMenu" for examples.
+You can refer to the given scripts in "\~/FinderMenu" for examples.
 
 
 ## Uninstall the Application
@@ -50,9 +50,9 @@ You can refer to the given scripts in "~/FinderMenu" for examples.
 You can take the following steps if you need to completely uninstall the application form your system.
 
 * Delete the FinderMenu.app from "/Applications" directory.
-* Delete the "~/FinderMenu" directory.
+* Delete the "\~/FinderMenu" directory.
 * Disable the finder extension by gong to "System Preferences > Extensions > All" and disabling the FinderMenu item.
-* Remove the launch agent by deleting "~/Library/LaunchAgents/com.samiyuru.findermenu-service.plist"
+* Remove the launch agent by deleting "\~/Library/LaunchAgents/com.samiyuru.findermenu-service.plist"
 
 
 ## Credits
