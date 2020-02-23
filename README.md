@@ -39,7 +39,7 @@ The next gif shows how the provided "Open Terminal Here" menu item works.
 ## Adding Custom Menu Items
 
 Adding a new right click menu item is as simple as creating a shell script in the "~/FinderMenu" directory.
-The shell script should accept the path to the directory as the first argument ($1) when running the script.
+The shell script should accept the path to the directory as the first argument when running the script.
 File name of the script file becomes the menu item name in the right click menu.
 When the menu item is clicked, the script is executed with the directory path as the first argument.
 You can refer to the given scripts in "~/FinderMenu" for examples.
