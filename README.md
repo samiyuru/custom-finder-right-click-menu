@@ -9,7 +9,7 @@ The application has been tested to work on MacOS Catalina Version 10.15.2.
 
 You can build the application from the source code on MacOS using Xcode.
 
-If you are looking for pre build application file that is ready to run, you can download the zipped binary application file from [here](https://github.com/samiyuru/custom-finder-right-click-menu/releases). 
+If you are looking for pre built app file that is ready to run, you can download a pre compiled zipped app file from [here](https://github.com/samiyuru/custom-finder-right-click-menu/releases). 
 
 
 ## Using the Application
