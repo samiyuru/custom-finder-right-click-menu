@@ -2,7 +2,7 @@
 
 This application allows you to add custom right click menu items to directories opened in MacOS Finder. 
 Right click menu items can be added as shell scripts. 
-The application comes with two script files inbuilt to create new text documents in the current directory to open terminal from the current directory.
+The application comes with two script files inbuilt to create new text documents in the current directory and to open terminal from the current directory.
 The application has been tested to work on MacOS Catalina Version 10.15.2.
 
 ## Download the Application
