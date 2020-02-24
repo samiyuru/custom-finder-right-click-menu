@@ -65,7 +65,7 @@ The icon used in the application is a modified version of an icon made by [Freep
 Copyright &copy; Samiyuru Menik 2020.
 
 You are permitted to use this application and source code for personal or commercial use. 
-You are not allowed to redistribute this application or any of its content. 
+You are not permitted to fork this project or redistribute this application or any of its content. 
 But, you are allowed to redistribute this application to others by pointing them to this web location.
 If you modify this application you are allowed to use the modified version personally on your own but you are not allowed to redistribute the modified version.
 
