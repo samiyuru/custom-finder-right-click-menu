@@ -10,6 +10,7 @@ The application has been tested to work on MacOS Catalina Version 10.15.2.
 You can build the application from the source code on MacOS using Xcode.
 
 If you are looking for pre built app file that is ready to run, you can download a pre compiled zipped app file from [here](https://github.com/samiyuru/custom-finder-right-click-menu/releases). 
+To download the app from the link, navigate to the link, scroll down and click on the **FinderMenu.app.zip** link.
 
 
 ## Using the Application
