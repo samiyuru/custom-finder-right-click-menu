@@ -45,6 +45,7 @@ The shell script should accept the path to the directory as the first argument w
 File name of the script file becomes the menu item name in the right click menu.
 When the menu item is clicked, the script is executed with the directory path as the first argument.
 You can refer to the given scripts in "\~/FinderMenu" for examples.
+When you place a new script in "\~/FinderMenu", make sure to run FinderMenu.app once to refresh the right click menu with the new script.
 
 
 ## Uninstall the Application
