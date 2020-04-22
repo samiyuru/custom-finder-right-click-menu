@@ -2,8 +2,8 @@
 //  main.swift
 //  FinderMenu
 //
-//  Created by Samiyuru Menik on 1/22/20.
-//  Copyright © 2020 Samiyuru Menik.
+//  Created by Samiyuru Senarathne on 1/22/20.
+//  Copyright © 2020 Samiyuru Senarathne.
 //
 //  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY
 //  OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
@@ -106,10 +106,10 @@ func generateAndCopyPlist() -> Bool {
     do {
         var plistStr = try String(contentsOf: plistURL, encoding: .utf8)
         guard let serviceExecURL = Bundle.main.resourceURL?
-                .appendingPathComponent("RightClickService.app")
+                .appendingPathComponent("FinderMenuService.app")
                 .appendingPathComponent("Contents")
                 .appendingPathComponent("MacOS")
-                .appendingPathComponent("RightClickService") else {
+                .appendingPathComponent("FinderMenuService") else {
             errorAlert(text: "Failed to locate service executable.")
             return false
         }

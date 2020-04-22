@@ -3,7 +3,7 @@
 //  Commons
 //
 //  Created by Samiyuru Senarathne on 1/25/20.
-//  Copyright © 2020 Samiyuru Menik.
+//  Copyright © 2020 Samiyuru Senarathne.
 //
 //  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY
 //  OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
@@ -27,7 +27,7 @@ public let MENU_ITEM_INFO_REQUEST_NOTIF = "menuItemInfoRequestNotif"
 // The programs can be apple scripts, bash scripts or executables.
 public func programsDir() -> URL {
     // Name of the menu programs directory.
-    let menuProgramsDirName = "FinderMenu"
+    let menuProgramsDirName = ".findermenu"
     
     // Get the path to user home dir.
     let scriptParentDirURL = FileManager.default.homeDirectoryForCurrentUser

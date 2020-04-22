@@ -1,9 +1,9 @@
 //
 //  FinderSync.swift
-//  RightClickItems
+//  FinderMenuItems
 //
 //  Created by Samiyuru Senarathne on 1/22/20.
-//  Copyright © 2020 Samiyuru Menik.
+//  Copyright © 2020 Samiyuru Senarathne.
 //
 //  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY
 //  OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT

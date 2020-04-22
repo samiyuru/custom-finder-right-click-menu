@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ######################################################
-# Created by Samiyuru Menik on 1/22/20.
-# Copyright Samiyuru Menik 2020
+# Created by Samiyuru Senarathne on 1/22/20.
+# Copyright Samiyuru Senarathne 2020
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY
 # OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT

@@ -10,13 +10,13 @@
 		6B8F97B323D828CB00BDB90D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F97B223D828CB00BDB90D /* Assets.xcassets */; };
 		6B8F97C123D82A1300BDB90D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F97C023D82A1300BDB90D /* main.swift */; };
 		6B8F97CA23D82D2100BDB90D /* RightClickActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F97C923D82D2100BDB90D /* RightClickActions.swift */; };
-		6B8F97CF23D82D2100BDB90D /* RightClickItems.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6B8F97C723D82D2100BDB90D /* RightClickItems.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6B8F97CF23D82D2100BDB90D /* FinderMenuItems.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6B8F97C723D82D2100BDB90D /* FinderMenuItems.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6BC8C4C523DD79C90010A119 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC8C4C423DD79C90010A119 /* Commons.swift */; };
 		6BC8C4C623DD79F10010A119 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF9386123DD79880016EE36 /* Commons.framework */; };
 		6BC8C4C723DD79F10010A119 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF9386123DD79880016EE36 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6BC8C4CA23DD79F70010A119 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF9386123DD79880016EE36 /* Commons.framework */; };
 		6BC8C4CB23DD79F70010A119 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF9386123DD79880016EE36 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6BC8C4CE23DD7AAA0010A119 /* RightClickService.app in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F988F23DD3B1C00BDB90D /* RightClickService.app */; };
+		6BC8C4CE23DD7AAA0010A119 /* FinderMenuService.app in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F988F23DD3B1C00BDB90D /* FinderMenuService.app */; };
 		6BC8C4D623DE505E0010A119 /* com.samiyuru.findermenu-service.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8C4D523DE505E0010A119 /* com.samiyuru.findermenu-service.plist */; };
 		6BC8C4D923DE532B0010A119 /* Open Text File Here.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8C4D723DE532B0010A119 /* Open Text File Here.sh */; };
 		6BC8C4DA23DE532B0010A119 /* Open Terminal Here.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6BC8C4D823DE532B0010A119 /* Open Terminal Here.sh */; };
@@ -71,7 +71,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6B8F97CF23D82D2100BDB90D /* RightClickItems.appex in Embed App Extensions */,
+				6B8F97CF23D82D2100BDB90D /* FinderMenuItems.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,13 +127,13 @@
 		6B8F97B723D828CB00BDB90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B8F97B823D828CB00BDB90D /* FinderMenu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinderMenu.entitlements; sourceTree = "<group>"; };
 		6B8F97C023D82A1300BDB90D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		6B8F97C723D82D2100BDB90D /* RightClickItems.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RightClickItems.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8F97C723D82D2100BDB90D /* FinderMenuItems.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinderMenuItems.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B8F97C923D82D2100BDB90D /* RightClickActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightClickActions.swift; sourceTree = "<group>"; };
 		6B8F97CB23D82D2100BDB90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B8F97CC23D82D2100BDB90D /* RightClickItems.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RightClickItems.entitlements; sourceTree = "<group>"; };
-		6B8F988F23DD3B1C00BDB90D /* RightClickService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RightClickService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8F97CC23D82D2100BDB90D /* FinderMenuItems.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinderMenuItems.entitlements; sourceTree = "<group>"; };
+		6B8F988F23DD3B1C00BDB90D /* FinderMenuService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinderMenuService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B8F989823DD3B1D00BDB90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B8F989923DD3B1D00BDB90D /* RightClickService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RightClickService.entitlements; sourceTree = "<group>"; };
+		6B8F989923DD3B1D00BDB90D /* FinderMenuService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinderMenuService.entitlements; sourceTree = "<group>"; };
 		6BC8C4C423DD79C90010A119 /* Commons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
 		6BC8C4D523DE505E0010A119 /* com.samiyuru.findermenu-service.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "com.samiyuru.findermenu-service.plist"; sourceTree = "<group>"; };
 		6BC8C4D723DE532B0010A119 /* Open Text File Here.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "Open Text File Here.sh"; path = "Scripts/Open Text File Here.sh"; sourceTree = SOURCE_ROOT; };
@@ -183,8 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				6B8F97AF23D828CA00BDB90D /* FinderMenu */,
-				6B8F97C823D82D2100BDB90D /* RightClickItems */,
-				6B8F989023DD3B1C00BDB90D /* RightClickService */,
+				6B8F97C823D82D2100BDB90D /* FinderMenuItems */,
+				6B8F989023DD3B1C00BDB90D /* FinderMenuService */,
 				6BF9386223DD79880016EE36 /* Commons */,
 				6B8F97AE23D828CA00BDB90D /* Products */,
 				6BF9383A23DD68780016EE36 /* Frameworks */,
@@ -195,8 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				6B8F97AD23D828CA00BDB90D /* FinderMenu.app */,
-				6B8F97C723D82D2100BDB90D /* RightClickItems.appex */,
-				6B8F988F23DD3B1C00BDB90D /* RightClickService.app */,
+				6B8F97C723D82D2100BDB90D /* FinderMenuItems.appex */,
+				6B8F988F23DD3B1C00BDB90D /* FinderMenuService.app */,
 				6BF9386123DD79880016EE36 /* Commons.framework */,
 			);
 			name = Products;
@@ -214,24 +214,24 @@
 			path = FinderMenu;
 			sourceTree = "<group>";
 		};
-		6B8F97C823D82D2100BDB90D /* RightClickItems */ = {
+		6B8F97C823D82D2100BDB90D /* FinderMenuItems */ = {
 			isa = PBXGroup;
 			children = (
 				6B8F97C923D82D2100BDB90D /* RightClickActions.swift */,
 				6B8F97CB23D82D2100BDB90D /* Info.plist */,
-				6B8F97CC23D82D2100BDB90D /* RightClickItems.entitlements */,
+				6B8F97CC23D82D2100BDB90D /* FinderMenuItems.entitlements */,
 			);
-			path = RightClickItems;
+			path = FinderMenuItems;
 			sourceTree = "<group>";
 		};
-		6B8F989023DD3B1C00BDB90D /* RightClickService */ = {
+		6B8F989023DD3B1C00BDB90D /* FinderMenuService */ = {
 			isa = PBXGroup;
 			children = (
 				6B8F989823DD3B1D00BDB90D /* Info.plist */,
-				6B8F989923DD3B1D00BDB90D /* RightClickService.entitlements */,
+				6B8F989923DD3B1D00BDB90D /* FinderMenuService.entitlements */,
 				6BF9384223DD71180016EE36 /* main.swift */,
 			);
-			path = RightClickService;
+			path = FinderMenuService;
 			sourceTree = "<group>";
 		};
 		6BC8C4D223DE50140010A119 /* resources */ = {
@@ -313,9 +313,9 @@
 			productReference = 6B8F97AD23D828CA00BDB90D /* FinderMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6B8F97C623D82D2100BDB90D /* RightClickItems */ = {
+		6B8F97C623D82D2100BDB90D /* FinderMenuItems */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B8F97D023D82D2100BDB90D /* Build configuration list for PBXNativeTarget "RightClickItems" */;
+			buildConfigurationList = 6B8F97D023D82D2100BDB90D /* Build configuration list for PBXNativeTarget "FinderMenuItems" */;
 			buildPhases = (
 				6B8F97C323D82D2100BDB90D /* Sources */,
 				6B8F97C423D82D2100BDB90D /* Frameworks */,
@@ -327,14 +327,14 @@
 			dependencies = (
 				6BC8C4C923DD79F10010A119 /* PBXTargetDependency */,
 			);
-			name = RightClickItems;
+			name = FinderMenuItems;
 			productName = RightClickItems;
-			productReference = 6B8F97C723D82D2100BDB90D /* RightClickItems.appex */;
+			productReference = 6B8F97C723D82D2100BDB90D /* FinderMenuItems.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		6B8F988E23DD3B1C00BDB90D /* RightClickService */ = {
+		6B8F988E23DD3B1C00BDB90D /* FinderMenuService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B8F989A23DD3B1D00BDB90D /* Build configuration list for PBXNativeTarget "RightClickService" */;
+			buildConfigurationList = 6B8F989A23DD3B1D00BDB90D /* Build configuration list for PBXNativeTarget "FinderMenuService" */;
 			buildPhases = (
 				6B8F988B23DD3B1C00BDB90D /* Sources */,
 				6B8F988C23DD3B1C00BDB90D /* Frameworks */,
@@ -346,9 +346,9 @@
 			dependencies = (
 				6BC8C4CD23DD79F70010A119 /* PBXTargetDependency */,
 			);
-			name = RightClickService;
+			name = FinderMenuService;
 			productName = RightClickService;
-			productReference = 6B8F988F23DD3B1C00BDB90D /* RightClickService.app */;
+			productReference = 6B8F988F23DD3B1C00BDB90D /* FinderMenuService.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6BF9386023DD79880016EE36 /* Commons */ = {
@@ -409,8 +409,8 @@
 			projectRoot = "";
 			targets = (
 				6B8F97AC23D828CA00BDB90D /* FinderMenu */,
-				6B8F97C623D82D2100BDB90D /* RightClickItems */,
-				6B8F988E23DD3B1C00BDB90D /* RightClickService */,
+				6B8F97C623D82D2100BDB90D /* FinderMenuItems */,
+				6B8F988E23DD3B1C00BDB90D /* FinderMenuService */,
 				6BF9386023DD79880016EE36 /* Commons */,
 			);
 		};
@@ -426,7 +426,7 @@
 				6B8F97B323D828CB00BDB90D /* Assets.xcassets in Resources */,
 				6BC8C4DA23DE532B0010A119 /* Open Terminal Here.sh in Resources */,
 				6BC8C4D923DE532B0010A119 /* Open Text File Here.sh in Resources */,
-				6BC8C4CE23DD7AAA0010A119 /* RightClickService.app in Resources */,
+				6BC8C4CE23DD7AAA0010A119 /* FinderMenuService.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +491,7 @@
 /* Begin PBXTargetDependency section */
 		6B8F97CE23D82D2100BDB90D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6B8F97C623D82D2100BDB90D /* RightClickItems */;
+			target = 6B8F97C623D82D2100BDB90D /* FinderMenuItems */;
 			targetProxy = 6B8F97CD23D82D2100BDB90D /* PBXContainerItemProxy */;
 		};
 		6BC8C4C923DD79F10010A119 /* PBXTargetDependency */ = {
@@ -506,7 +506,7 @@
 		};
 		6BC8C4D023DD7AAA0010A119 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6B8F988E23DD3B1C00BDB90D /* RightClickService */;
+			target = 6B8F988E23DD3B1C00BDB90D /* FinderMenuService */;
 			targetProxy = 6BC8C4CF23DD7AAA0010A119 /* PBXContainerItemProxy */;
 		};
 		6BC8C4E123DE72010010A119 /* PBXTargetDependency */ = {
@@ -671,18 +671,18 @@
 		6B8F97D123D82D2100BDB90D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = RightClickItems/RightClickItems.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FinderMenuItems/FinderMenuItems.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RightClickItems/Info.plist;
+				INFOPLIST_FILE = FinderMenuItems/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.samiyuru.FinderMenu.RightClickItems;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samiyuru.FinderMenu.FinderMenuItems;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -692,18 +692,18 @@
 		6B8F97D223D82D2100BDB90D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = RightClickItems/RightClickItems.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FinderMenuItems/FinderMenuItems.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RightClickItems/Info.plist;
+				INFOPLIST_FILE = FinderMenuItems/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.samiyuru.FinderMenu.RightClickItems;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samiyuru.FinderMenu.FinderMenuItems;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -715,15 +715,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = RightClickService/RightClickService.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FinderMenuService/FinderMenuService.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RightClickService/Info.plist;
+				INFOPLIST_FILE = FinderMenuService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.samiyuru.RightClickService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samiyuru.FinderMenuService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -735,15 +735,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = RightClickService/RightClickService.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FinderMenuService/FinderMenuService.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = RightClickService/Info.plist;
+				INFOPLIST_FILE = FinderMenuService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.samiyuru.RightClickService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samiyuru.FinderMenuService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -825,7 +825,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B8F97D023D82D2100BDB90D /* Build configuration list for PBXNativeTarget "RightClickItems" */ = {
+		6B8F97D023D82D2100BDB90D /* Build configuration list for PBXNativeTarget "FinderMenuItems" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B8F97D123D82D2100BDB90D /* Debug */,
@@ -834,7 +834,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B8F989A23DD3B1D00BDB90D /* Build configuration list for PBXNativeTarget "RightClickService" */ = {
+		6B8F989A23DD3B1D00BDB90D /* Build configuration list for PBXNativeTarget "FinderMenuService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B8F989B23DD3B1D00BDB90D /* Debug */,
