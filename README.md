@@ -25,6 +25,7 @@ When you run FinderMenu.app once, the application will take the following steps 
 * Install a launch agent to serve the custom right click menu items.
 * Install a Finder extension to include custom right click menu items in the Finder.
 * Create "~/FinderMenu" directory to place custom right click menu scripts.
+* Enable "FinderMenuItems" in "System Preferences > Extensions > Finder Extensions" in case it is not already enabled.
 
 Right click menu service in FinderMenu.app automatically starts with your system. 
 Because of that you do not have to run FinderMenu.app ever again unless you do not want to make changes to the menu item scripts.
